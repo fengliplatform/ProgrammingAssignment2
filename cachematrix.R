@@ -37,7 +37,4 @@ cacheSolve <- function(x, ...) {
   i
 }
 
-m <- matrix(rnorm(4), 2, 2)
-m
-mm <- makeCacheMatrix(m)
-cacheSolve(mm)
+
